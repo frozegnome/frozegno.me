@@ -5,7 +5,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>frozegno.me</title>
-
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
@@ -26,38 +27,35 @@
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
-    <div class="container">
-      <div class="header">
-        <h3>frozegno.me</h3>
-      </div>
 
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-          
-          <h4>Sass</h4>
-          <p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
-          
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-          
+    <main>
+      <nav>
+        <h1>FROZEGNO.ME</h1>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" 
+                data-target="#nav-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-collapse">
+          <ul>
+            <li>ABOUT</li>
+            <li>WORK</li>
+            <li>CONTACT</li>
+            <li>LINKEDIN</li>
+            <li>GITHUB</li>
+          </ul>
         </div>
-      </div>
-
-      <div class="footer">
-        <p>♥ from the Yeoman team</p>
-      </div>
-    </div>
+      </nav>
+      <section class="banner"></section>
+      <section class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sunt esse amet. Vel qui, quisquam repellat maxime nesciunt maiores veritatis unde earum ea, ratione perspiciatis nihil iste? Fugiat, aspernatur, nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi similique unde repudiandae sunt esse aperiam culpa distinctio corporis est, deleniti nam illum, doloribus accusamus eum, totam error nulla alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sunt esse amet. Vel qui, quisquam repellat maxime nesciunt maiores veritatis unde earum ea, ratione perspiciatis nihil iste? Fugiat, aspernatur, nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi similique unde repudiandae sunt esse aperiam culpa distinctio corporis est, deleniti nam illum, doloribus accusamus eum, totam error nulla alias.</p><p>.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sunt esse amet. Vel qui, quisquam repellat maxime nesciunt maiores veritatis unde earum ea, ratione perspiciatis nihil iste? Fugiat, aspernatur, nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi similique unde repudiandae sunt esse aperiam culpa distinctio corporis est, deleniti nam illum, doloribus accusamus eum, totam error nulla alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sunt esse amet. Vel qui, quisquam repellat maxime nesciunt maiores veritatis unde earum ea, ratione perspiciatis nihil iste? Fugiat, aspernatur, nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi similique unde repudiandae sunt esse aperiam culpa distinctio corporis est, deleniti nam illum, doloribus accusamus eum, totam error nulla alias.</p><p>.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sunt esse amet. Vel qui, quisquam repellat maxime nesciunt maiores veritatis unde earum ea, ratione perspiciatis nihil iste? Fugiat, aspernatur, nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi similique unde repudiandae sunt esse aperiam culpa distinctio corporis est, deleniti nam illum, doloribus accusamus eum, totam error nulla alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sunt esse amet. Vel qui, quisquam repellat maxime nesciunt maiores veritatis unde earum ea, ratione perspiciatis nihil iste? Fugiat, aspernatur, nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi similique unde repudiandae sunt esse aperiam culpa distinctio corporis est, deleniti nam illum, doloribus accusamus eum, totam error nulla alias.</p><p>.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sunt esse amet. Vel qui, quisquam repellat maxime nesciunt maiores veritatis unde earum ea, ratione perspiciatis nihil iste? Fugiat, aspernatur, nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi similique unde repudiandae sunt esse aperiam culpa distinctio corporis est, deleniti nam illum, doloribus accusamus eum, totam error nulla alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sunt esse amet. Vel qui, quisquam repellat maxime nesciunt maiores veritatis unde earum ea, ratione perspiciatis nihil iste? Fugiat, aspernatur, nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias excepturi similique unde repudiandae sunt esse aperiam culpa distinctio corporis est, deleniti nam illum, doloribus accusamus eum, totam error nulla alias.</p>
+      </section>
+    </main>
     
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -91,6 +89,7 @@
     <!-- endbuild -->
     
     <!-- build:js scripts/main.js -->
+    <script src="scripts/parallax.js"></script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
   </body>
