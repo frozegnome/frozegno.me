@@ -1,4 +1,22 @@
-/* Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  
+@media screen and (min-width: 300px) and (max-width: 1080px) {
+    h1 {
+        font-size: 24px;
+    }
+    ul {
+        @include clearfix;
+    }
+    li {
+        font-size: 14px;
+        width: 60px;
+    }
+    .banner {
+        min-height: 450px;
+        header {
+            font-size: 36px;
+            margin: 12%;
+        }
+        aside {
+            display: none;
+        }
+    }
 }

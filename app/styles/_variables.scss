@@ -1,5 +1,3 @@
-/*TODO: Trying to be teradic here, but its not working, revisit color palette*/
-
 $white: #fff;
 $black: #000;
 $text-light: #f7ffea;
@@ -11,3 +9,7 @@ $brand-secondary: #42826c;
 $brand-secondary-light: #7bf2ca;
 $brand-secondary-dark: #214237;
 $brand-other: #bf95e9;
+
+/*Border*/
+$teal-line: 2px solid $brand-secondary-light;
+$white-line: 2px solid $text-light;
