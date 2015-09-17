@@ -24,11 +24,15 @@ body {
 }
 
 body {
-    background-color: $brand-primary-dark;
+    background-color: $brand-primary-light;
     color: $text-light;
     font-family: "Roboto", 400;
     font-size: 18px;
     line-height: 2.5em;
+}
+
+h1 {
+  font-family: "Oswald", 700;
 }
 
 a,
@@ -47,9 +51,20 @@ nav {
     top: 0;
     width: 100%;
     z-index: 2;
+
     h1 {
         color: $brand-secondary-light;
+        transition: color .5s;
     }
+
+    h1:hover {
+        color: $text-light;
+    }
+
+}
+
+ul {
+  margin: 10px 0;
 }
 
 li {
@@ -60,7 +75,7 @@ li {
     margin: 2px 1px;
     padding: 0;
     transition: color .5s, background-color .5s, border .5s;
-    width: 5%;
+    width: 7%;
 }
 
 li:hover {
@@ -95,19 +110,29 @@ li:hover {
         border: $white-line;
         font-size: 72px;
         line-height: 2em;
-        margin: 12% 40%;
-        padding: 10px;
+        margin: 10% 30% 0;
+        padding: 5%;
         text-align: center;
     }
     aside {
+        bottom: 0;
         margin-left: 5px;
+        position: fixed;
     }
 }
 
 .content {
     background-color: $brand-primary;
-    border-top: $teal-line;
+    border-bottom: $teal-line;
+    border-left: $teal-line;
+    border-right: $teal-line;
+    height: 100%;
+    margin: 134px 10% 0;
     padding: 20px 2%;
+
+    h1 {
+      color: $brand-secondary-light;
+    }
 }
 
 .browserupgrade {

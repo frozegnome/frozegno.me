@@ -1,0 +1,23 @@
+.about {
+	nav {
+		background-color: $brand-primary-dark;
+		position: fixed;
+		top: 0;
+	}
+}
+
+.description {
+	margin: 75px 2%;
+
+	.photo {
+	  	background: url(http://placehold.it/300x300);
+		border-radius: 50%;
+		float: left;
+		height: 300px;
+	  	width: 300px;
+	}
+
+	p {
+    	margin-left: 400px;
+    }
+}
