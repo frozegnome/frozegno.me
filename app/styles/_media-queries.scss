@@ -1,43 +1,41 @@
 /*TODO: Consolidate some of these media queries for DRYer code*/
 
-@media only screen 
-  and (min-width: 768px) 
-  and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
     h1 {
-      font-size: 30px;
+        font-size: 30px;
     }
     ul {
-      @include clearfix;
+        @include clearfix;
     }
     li {
-      font-size: 16px;
-      width: 75px;
+        font-size: 16px;
+        width: 75px;
     }
     .banner {
-      min-height: auto;
-      header {
-          font-size: 60px;
-          margin: 15% 27% 0;
-      }
+        min-height: auto;
+        header {
+            font-size: 60px;
+            margin: 15% 27% 0;
+        }
     }
-
-  .content {
-    border: 0;
-    margin: 122px 0 0;
-  }
-  .description {
-    margin: 35px 3%;
-
-    p {
-      display: block;
-      float: none;
-      margin: 0; 
+    .about {
+        height: 110%;
     }
-  }
+    .content {
+        border: 0;
+        margin: 122px 0 0;
+    }
+    .description {
+        margin: 35px 3%;
+        p {
+            display: block;
+            float: none;
+            margin: 0;
+        }
+    }
 }
-@media only screen 
-  and (min-width: 199px) 
-  and (max-width: 767px) {
+
+@media only screen and (min-width: 199px) and (max-width: 767px) {
     h1 {
         font-size: 24px;
     }
@@ -48,6 +46,9 @@
         font-size: 13px;
         width: 55px;
     }
+    aside {
+      display: none;
+    }
     .banner {
         min-height: auto;
         header {
@@ -55,48 +56,49 @@
             margin: 20% 22% 0;
         }
     }
-  .content {
-    border: 0;
-    margin: 122px 0 0;
-  }
-  .description {
-    margin: 35px 3%;
-
-    .photo {
-      margin: 15px;
-      height: 150px;
-      width: 150px;
+    .about {
+        height: 110%;
     }
-
-    p {
-      font-size: 14px;
-      float: none;
-      line-height: 1.75em;
-      margin: 0; 
+    .content {
+        border: 0;
+        margin: 122px 0 0;
     }
-  }
+    .description {
+        margin: 35px 3%;
+        .photo {
+            margin: 15px;
+            height: 150px;
+            width: 150px;
+        }
+        p {
+            font-size: 14px;
+            float: none;
+            line-height: 1.75em;
+            margin: 0;
+        }
+    }
 }
 
-@media only screen 
-  and (min-width: 768px)
-  and (max-width: 1199px)
-  and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
     .banner {
         header {
             font-size: 32px;
             margin: 6% 27% 0;
         }
     }
+    .about {
+        height: 150%;
+    }
 }
 
-  @media only screen 
-  and (min-width: 199px)
-  and (max-width: 767px)
-  and (orientation: landscape) {
+@media only screen and (min-width: 199px) and (max-width: 767px) and (orientation: landscape) {
     .banner {
         header {
             font-size: 32px;
             margin: 2% 27% 0;
         }
+    }
+    .about {
+        height: 150%;
     }
 }
