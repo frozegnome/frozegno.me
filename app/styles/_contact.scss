@@ -1,0 +1,18 @@
+form {
+	margin: 50px 0;
+}
+/* TODO: Find a work-around for these !important tags */
+button {
+	background: none;
+	border: $teal-line;
+	color: $brand-secondary-light !important;
+	float: right;
+	font-family: "Oswald", 700 !important;
+	margin-bottom: 50px !important;
+	transition: color .5s, border .5s;
+}
+
+button:hover {
+	border: $white-line;
+	color: $text-light !important;
+}

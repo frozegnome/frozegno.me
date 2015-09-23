@@ -27,6 +27,7 @@
     }
     .content {
         border: 0;
+        height: 110%;
         margin: 0;
     }
     .description {
@@ -42,6 +43,9 @@
 @media only screen and (min-width: 199px) and (max-width: 767px) {
     h1 {
         font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
     }
     ul {
         @include clearfix;
@@ -69,6 +73,7 @@
     }
     .content {
         border: 0;
+        height: 110%;
         margin: 0;
     }
     .description {

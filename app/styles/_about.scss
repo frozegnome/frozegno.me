@@ -2,7 +2,8 @@
 	margin: 75px 2%;
 
 	.photo {
-	  	background: url(http://placehold.it/300x300);
+	  	background: url(/assets/me.jpg);
+	  	background-size: contain;
 		border-radius: 50%;
 		float: left;
 		height: 300px;
