@@ -118,6 +118,15 @@ li:hover {
     }
 }
 
+.module {
+    height: calc(100% - 135px);
+    nav {
+        background-color: $brand-primary-dark;
+        position: fixed;
+        top: 0;
+    }
+}
+
 .content {
     background-color: $brand-primary;
     border-bottom: $teal-line;

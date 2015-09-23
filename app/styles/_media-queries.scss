@@ -18,12 +18,16 @@
             margin: 15% 27% 0;
         }
     }
-    .about {
+    .module {
         height: 110%;
+
+        nav {
+            position: relative;
+        }
     }
     .content {
         border: 0;
-        margin: 122px 0 0;
+        margin: 0;
     }
     .description {
         margin: 35px 3%;
@@ -56,12 +60,16 @@
             margin: 20% 22% 0;
         }
     }
-    .about {
+    .module {
         height: 110%;
+
+        nav {
+            position: relative;
+        }
     }
     .content {
         border: 0;
-        margin: 122px 0 0;
+        margin: 0;
     }
     .description {
         margin: 35px 3%;
