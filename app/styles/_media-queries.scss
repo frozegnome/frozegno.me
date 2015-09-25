@@ -19,7 +19,7 @@
         }
     }
     .module {
-        height: 110%;
+        height: auto;
 
         nav {
             position: relative;
@@ -27,11 +27,13 @@
     }
     .content {
         border: 0;
-        height: 110%;
         margin: 0;
     }
     .description {
         margin: 35px 3%;
+        .photo {
+            margin-right: 2%;
+        }
         p {
             display: block;
             float: none;
@@ -65,7 +67,7 @@
         }
     }
     .module {
-        height: 110%;
+        height: auto;
 
         nav {
             position: relative;
@@ -73,7 +75,6 @@
     }
     .content {
         border: 0;
-        height: 110%;
         margin: 0;
     }
     .description {
