@@ -24,7 +24,7 @@ body {
 }
 
 body {
-    background-color: $brand-primary-light;
+    background-color: $brand-primary;
     color: $text-light;
     font-family: "Roboto", 400;
     font-size: 18px;
@@ -129,11 +129,9 @@ li:hover {
 }
 
 .content {
+    @include clearfix;
     background-color: $brand-primary;
-    border-bottom: $teal-line;
-    border-left: $teal-line;
-    border-right: $teal-line;
-    height: 100%;
+    height: auto;
     margin: 134px 10% 0;
     padding: 20px 2%;
     h1 {

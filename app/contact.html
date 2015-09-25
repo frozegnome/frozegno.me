@@ -42,18 +42,19 @@
       <section class="content">
         <h1>CONTACT</h1>
         <h3>Feel free to send an Email my way, or message me on <a href="https://goo.gl/JFl5hs" target="_blank"><u>LinkedIn!</u></a></h3>
-        <form role="form">
+        <form role="form" action="//formspree.io/pcaron@att.net"
+      method="POST">
           <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="text" class="form-control" id="email">
+            <label for="email-addr">Email Address</label>
+            <input name="_replyto" type="email" class="form-control" id="email-addr" placeholder="Ex: jeff.lebowski@thedude.com">
           </div>
           <div class="form-group">
             <label for="msg-subject">Subject</label>
-            <input type="text" class="form-control" id="msg-subject">
+            <input name="subject" type="text" class="form-control" id="msg-subject" placeholder="Your Subject">
           </div>
           <div class="form-group">
             <label for="msg-body">What's on your mind?</label>
-            <textarea class="form-control" rows="5" id="msg-body"></textarea>
+            <textarea name="message" class="form-control" rows="5" id="msg-body" placeholder="Your Message"></textarea>
           </div>
           <button type="submit">SUBMIT</button>
         </form>
@@ -90,7 +91,9 @@
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
     <!-- endbuild -->
-
+    <!-- build:js scripts/jquery.rwdImageMaps.js -->
+    <script src="scripts/jquery.rwdImageMaps.js"></script>
+    <!-- endbuild -->
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
