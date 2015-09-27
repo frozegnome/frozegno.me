@@ -5,6 +5,16 @@ $icon-font-path: "../fonts/";
 
 // endbower
 
+@font-face {
+    font-family: "Oswald";
+    src: url(/fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Slab";
+    src: url(/fonts/RobotoSlab-Regular.ttf);
+}
+
 ::selection {
     background: $brand-secondary-light;
 }
@@ -26,14 +36,14 @@ body {
 body {
     background-color: $brand-primary;
     color: $text-light;
-    font-family: "Roboto", 400;
+    font-family: "Roboto-Slab";
     font-size: 18px;
     line-height: 2.5em;
 }
 
 h1,
 h3 {
-    font-family: "Oswald", 700;
+    font-family: "Oswald";
 }
 
 a,
@@ -46,7 +56,7 @@ nav {
     @include clearfix;
     background-color: transparent;
     border-bottom: $teal-line;
-    font-family: "Oswald", 700;
+    font-family: "Oswald";
     left: 0;
     text-align: center;
     top: 0;
@@ -69,7 +79,7 @@ li {
     border: $white-line;
     color: $text-light;
     display: inline-block;
-    font-family: 'Oswald', 400;
+    font-family: 'Oswald';
     margin: 2px 1px;
     padding: 0;
     transition: color .5s, background-color .5s, border .5s;
@@ -84,7 +94,7 @@ li:hover {
 
 .banner {
     background-size: cover;
-    font-family: "Oswald", 300;
+    font-family: "Oswald";
     height: 100%;
     left: 0;
     position: relative;

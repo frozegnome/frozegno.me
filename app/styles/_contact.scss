@@ -1,4 +1,5 @@
 form {
+	font-family: "Roboto-Slab";
 	margin: 50px 0;
 }
 /* TODO: Find a work-around for these !important tags */
@@ -7,7 +8,7 @@ button {
 	border: $teal-line;
 	color: $brand-secondary-light !important;
 	float: right;
-	font-family: "Oswald", 700 !important;
+	font-family: "Oswald" !important;
 	margin-bottom: 50px !important;
 	transition: color .5s, border .5s;
 }
