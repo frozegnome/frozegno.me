@@ -1,123 +1,140 @@
-/*TODO: Consolidate some of these media queries for DRYer code*/
+// TODO: Consolidate some of these media queries for DRYer code
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-    h1 {
-        font-size: 30px;
-    }
-    ul {
-        @include clearfix;
-    }
-    li {
-        font-size: 16px;
-        width: 75px;
-    }
-    .banner {
-        min-height: auto;
-        header {
-            font-size: 60px;
-            margin: 15% 27% 0;
-        }
-    }
-    .module {
-        height: auto;
+  h1 {
+    font-size: 30px;
+  }
 
-        nav {
-            position: relative;
-        }
+  ul {
+    @include clearfix;
+  }
+
+  li {
+    font-size: 16px;
+    width: 75px;
+  }
+
+  .banner {
+    min-height: auto;
+    header {
+      font-size: 60px;
+      margin: 15% 27% 0;
     }
-    .content {
-        border: 0;
-        margin: 0;
+  }
+
+  .module {
+    height: auto;
+
+    nav {
+      position: relative;
     }
-    .description {
-        margin: 35px 3%;
-        .photo {
-            margin-right: 2%;
-        }
-        p {
-            display: block;
-            float: none;
-            margin: 0;
-        }
+  }
+
+  .content {
+    border: 0;
+    margin: 0;
+  }
+
+  .description {
+    margin: 35px 3%;
+    .photo {
+      margin-right: 2%;
     }
+    p {
+      display: block;
+      float: none;
+      margin: 0;
+    }
+  }
 }
 
 @media only screen and (min-width: 199px) and (max-width: 767px) {
-    h1 {
-        font-size: 24px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    ul {
-        @include clearfix;
-    }
-    li {
-        font-size: 13px;
-        width: 55px;
-    }
-    aside {
-        display: none;
-    }
-    .banner {
-        min-height: auto;
-        header {
-            font-size: 32px;
-            margin: 20% 22% 0;
-        }
-    }
-    .module {
-        height: auto;
+  h1 {
+    font-size: 24px;
+  }
 
-        nav {
-            position: relative;
-        }
+  h2 {
+    font-size: 20px;
+  }
+
+  ul {
+    @include clearfix;
+  }
+
+  li {
+    font-size: 13px;
+    width: 55px;
+  }
+
+  aside {
+    display: none;
+  }
+
+  .banner {
+    min-height: auto;
+    header {
+      font-size: 32px;
+      margin: 20% 22% 0;
     }
-    .content {
-        border: 0;
-        margin: 0;
+  }
+
+  .module {
+    height: auto;
+    nav {
+      position: relative;
     }
-    .description {
-        margin: 35px 3%;
-        .photo {
-            margin: 15px;
-            height: 150px;
-            width: 150px;
-        }
-        p {
-            font-size: 14px;
-            float: none;
-            line-height: 1.75em;
-            margin: 15px 0 0;
-        }
+  }
+
+  .content {
+    border: 0;
+    margin: 0;
+  }
+
+  .description {
+    margin: 35px 3%;
+    .photo {
+      margin: 10px;
+      height: 100px;
+      width: 100px;
     }
-    .project {
-        h3 {
-            font-size: 14px;
-        }
+
+    p {
+      font-size: 14px;
+      float: none;
+      line-height: 1.75em;
+      margin: 15px 0 0;
     }
+  }
+
+  .project {
+    h3 {
+      font-size: 14px;
+    }
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
-    .banner {
-        header {
-            font-size: 32px;
-            margin: 6% 27% 0;
-        }
+  .banner {
+    header {
+      font-size: 32px;
+      margin: 6% 27% 0;
     }
-    .about {
-        height: 150%;
-    }
+  }
+
+  .about {
+    height: 150%;
+  }
 }
 
 @media only screen and (min-width: 199px) and (max-width: 767px) and (orientation: landscape) {
-    .banner {
-        header {
-            font-size: 32px;
-            margin: 2% 27%;
-        }
+  .banner {
+    header {
+      font-size: 32px;
+      margin: 2% 27%;
     }
-    .about {
-        height: 150%;
-    }
+  }
+
+  .about {
+    height: 150%;
+  }
 }

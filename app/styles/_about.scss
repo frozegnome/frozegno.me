@@ -1,16 +1,18 @@
 .description {
-	margin: 75px 2%;
+	margin: 15px 2%;
 
 	.photo {
-	  	background: url(/assets/me.jpg);
-	  	background-size: contain;
-		border-radius: 50%;
+	  background: url(/assets/me.jpg);
+	  background-size: contain;
+		border-radius: 40%;
 		float: left;
-		height: 300px;
-	  	width: 300px;
+		height: 200px;
+		margin: 25px 25px 15px;
+	  width: 200px;
 	}
 
 	p {
-    	margin: 30px 0 0 400px;
-    }
+    font-size: 16px;
+    margin: 20px 0 0 20px;
+  }
 }
